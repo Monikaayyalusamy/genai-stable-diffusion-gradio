@@ -11,7 +11,8 @@ To design and deploy a prototype application for image generation utilizing the 
 To design and deploy a prototype application for image generation utilizing the Stable Diffusion model, integrated with the Gradio UI framework for interactive user engagement and evaluation.
 
 ### PROBLEM STATEMENT:
-The problem is to develop a prototype that generates high-quality images from text prompts using the Stable Diffusion model. It should include an interactive, user-friendly interface built with Gradio for real-time input and output. The goal is to create a seamless and engaging user experience for text-to-image generation.
+
+The objective of this experiment is to develop a prototype text-to-image generation system using the Stable Diffusion model and the Gradio framework. The system should accept natural language prompts from users and generate corresponding high-quality images through a deep learning-based diffusion model. An interactive and user-friendly interface must be provided to enable real-time image generation, customization of generation parameters, and visualization of results. The prototype aims to demonstrate the practical application of generative AI techniques in converting textual descriptions into realistic visual content while ensuring usability, efficiency, and scalability.
 
 ### DESIGN STEPS:
 
@@ -145,6 +146,6 @@ demo.launch(share=True, server_port=int(os.environ['PORT2']))
 
 ### RESULT:
 
-The prototype enables high-quality image generation from text prompts using the Stable Diffusion model. It features an intuitive Gradio interface and is ready for deployment and further development.
+The prototype for text-to-image generation was successfully developed using the Stable Diffusion model and integrated with the Gradio framework. The application enables users to generate high-quality images from textual prompts through an intuitive web-based interface. Additional controls such as negative prompts, inference steps, guidance scale, image width, and image height were incorporated to enhance customization and output quality. The system demonstrated effective generation of images corresponding to user inputs, thereby validating the feasibility of deploying Stable Diffusion-based generative AI applications for interactive image synthesis.
 
 
